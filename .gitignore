@@ -1,0 +1,35 @@
+# R default ignores
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+.Rproj.user
+*.Rproj
+.Rprofile
+.Renviron
+*.rdb
+*.rdx
+*.rda
+
+# R packages / build
+*.tar.gz
+*.zip
+renv/library/
+renv/staging/
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*~
+*.swp
+.vscode/
+.idea/
+
+# Results are committed intentionally via results/, ignore nothing there
+
+# Original assignment notebook must never enter the repo
+EPS_CA3_810103434.ipynb
