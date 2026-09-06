@@ -73,7 +73,7 @@ Two boxes start at `(n, n)`; each step removes a match from a random box. Stoppi
 P(K = k) = 2 · C(2n-k-1, n-1) · (1/2)^(2n-k)
 ```
 
-and `P(K = 0) = 0` (reaching `(0, 0)` needs `2n` draws, but the walk always stops within `2n - 1`). This corrects the common variant mix-up that assigns `P(K = 0) ≈ 0.176` at `n = 10`.
+and `P(K = 0) = 0` (reaching `(0, 0)` needs `2n` draws, but the walk always stops within `2n - 1`). So the model assigns `P(K = 0) = 0` by construction.
 
 ---
 
