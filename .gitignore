@@ -31,5 +31,5 @@ Thumbs.db
 
 # Results are committed intentionally via results/, ignore nothing there
 
-# Original assignment notebook must never enter the repo
+# Local-only file, never committed
 EPS_CA3_810103434.ipynb
